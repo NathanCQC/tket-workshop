@@ -8,8 +8,6 @@ cd nqcc_tket_webinar
 pip install -r requirements.txt
 ```
 
-Note you will also need to install jupyter notebook/ jupyter lab in your local environment in order to run the notebook file.
-
 https://jupyter.org/install
 
 ## Useful links to pytket documentation
