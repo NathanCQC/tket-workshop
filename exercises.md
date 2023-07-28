@@ -12,7 +12,7 @@ Can you define a function `build_ghz_circ` which builds a circuit to prepare an 
 
 $$
 \begin{equation*}
-| \psi \rangle^{(3)}_{GHZ} = \frac{1}{\sqrt{2}} \big( |0\rangle^{\otimes n} + |1\rangle^{\otimes n} \big)
+| \psi \rangle^{(n)}_{GHZ} = \frac{1}{\sqrt{2}} \big( |0\rangle^{\otimes n} + |1\rangle^{\otimes n} \big)
 \end{equation*}
 $$
 
