@@ -29,7 +29,7 @@ $$
 
 4. Shown below is a circuit that performs the SWAP test. This circuit can be used to calculate the inner product between the states prepared in the registers $p$ and $q$. In the circuit the registers $p$ and $q$ contain 1 qubit however this test works for registers of any size.
 
-<center><img src='swap_circ.png'></center>
+<center><img src='SWAPcirc.svg'></center>
 
 If we measure qubit $a$ the probability measuring the state $| 0 \rangle$ state is related to the value of the inner product as follows 
 
