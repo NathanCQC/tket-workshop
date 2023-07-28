@@ -8,7 +8,7 @@ $$
 \end{equation*}
 $$
 
-Can you define a function `build_ghz_circ` which builds an $n$ qubit GHZ state?
+Can you define a function `build_ghz_circ` which builds a circuit to prepare an $n$ qubit GHZ state?
 
 $$
 \begin{equation*}
@@ -18,11 +18,11 @@ $$
 
 
 
-2. Take a look at the Quantum Fourier transform as implemented in the intro notebook. Can you implement the QFT using recursion? 
+2. Take a look at the Quantum Fourier transform as implemented in the intro notebook. Can you define a function `build_qft_circ(n_qubits)` that builds a circuit for the Quantum Fourier Transform for $n$ qubits?
 
 
 3. 
-(a) Define a [custom rebase](https://cqcl.github.io/tket/pytket/api/passes.html#pytket.passes.RebaseCustom) to the $\{\text{H}, \text{Rx}, \text{CU1}\}$ gateset. See [This page](https://cqcl.github.io/tket/pytket/api/optype.html) for the gate defintions. Test out this rebase pass on the circuits you have made so far.
+(a) Define a [custom rebase](https://cqcl.github.io/tket/pytket/api/passes.html#pytket.passes.RebaseCustom) to the $\{\text{H}, \text{Rx}, \text{CU1}\}$ gateset. See [This page](https://cqcl.github.io/tket/pytket/api/optype.html) for the gate definitions. Test out this rebase pass on the circuits you have made so far.
 
 (b) Define a `SequencePass` which optimises a `Circuit` using `FullPeepholeOptimise` before applying the rebase defined above. Test out this rebase pass on the circuits you have made so far.
 
@@ -52,6 +52,7 @@ Note that here $|p \rangle$ and $|q \rangle$ are two qubit states so you will ne
 
 5. Write a pytket [CustomPass](https://cqcl.github.io/pytket/manual/manual_compiler.html#user-defined-passes) that iterates through a `Circuit` and eliminates parameterised gates with small angles. Can you make a method where we can set a threshold for a gate to be eliminated?
 
+## Lengthier exercise (not part of the workshop)
 6. (BONUS) Write your `Backend` that can run simulations of a pytket `Circuit` for a gateset of your choice. You can use this [notebook tutorial](https://github.com/CQCL/pytket/blob/main/examples/creating_backends.ipynb) as a guide.
 
 
