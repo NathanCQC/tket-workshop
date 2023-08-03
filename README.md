@@ -4,7 +4,7 @@ To install the requirements to run the notebook run the following.
 
 ```
 git clone git@github.com:CalMacCQ/tket-workshop.git
-cd nqcc_tket_webinar
+cd tket-workshop
 pip install -r requirements.txt
 ```
 
