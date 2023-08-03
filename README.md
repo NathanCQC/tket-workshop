@@ -10,8 +10,6 @@ pip install -r requirements.txt
 
 Installation problems? See this support page -> https://cqcl.github.io/tket/pytket/api/install.html
 
-https://jupyter.org/install
-
 ## Useful links to pytket documentation
 
 * [API documentation](https://cqcl.github.io/tket/pytket/api/#) 
