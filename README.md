@@ -15,7 +15,3 @@ Installation problems? See this support page -> https://cqcl.github.io/tket/pytk
 * [API documentation](https://cqcl.github.io/tket/pytket/api/#) 
 * [Notebook examples repository](https://github.com/CQCL/pytket/tree/main/examples) 
 * [User manual](https://cqcl.github.io/pytket/manual/index.html) 
-
-Also join our [slack channel](https://tketusers.slack.com/join/shared_invite/zt-18qmsamj9-UqQFVdkRzxnXCcKtcarLRA#/shared-invite/email)! 
-
-There is also a pytket tag on [quantum computing stack exchange](https://quantumcomputing.stackexchange.com/questions/tagged/pytket).
